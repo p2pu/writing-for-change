@@ -1,0 +1,3 @@
+baseurl: /writing-for-change
+markdown: redcarpet
+permalink: /:categories/:title/
