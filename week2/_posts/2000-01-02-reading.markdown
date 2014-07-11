@@ -2,4 +2,4 @@
 title: Reading
 layout: course_page
 ---
-# Two
+# Reading
