@@ -1,5 +1,5 @@
 ---
-title: one
+title: Reading
 layout: course_page
 ---
-# One
+# Two
