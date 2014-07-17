@@ -1,46 +1,57 @@
 <!-- Navigation -->
-<nav class="navbar" role="navigation">
-	<div class="container-fluid">
+<nav class="navbar navbar-default" role="navigation">
+	<div class="container">
 		<!-- Brand and toggle get grouped for better mobile display -->
 		<div class="navbar-header">
-			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#p2pu-menu">
-				<span class="sr-only">Toggle navigation</span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-			</button>
-			<a class="navbar-brand" href="{{ site.baseurl }}/">
+			<a href="{{ site.baseurl }}/" class="navbar-brand">
 				<img src="{{ site.baseurl }}/img/logo.png" alt="P2PU Logo" />
+			</a>
+			<a class="navbar-toggle" data-toggle="collapse" data-target="#p2pu-menu">
+				<i class="fa fa-bars"></i>
+			</a>
+			<a class="p2pu-tab" href="#">
+				<i class="fa fa-chevron-down p2pu-tab-icon"></i>
 			</a>
 		</div>
 
 		<!-- Collect the nav links, forms, and other content for toggling -->
 		<div class="collapse navbar-collapse" id="p2pu-menu">
-			<ul class="nav navbar-nav navbar-right">
-        <li><a href="{{ site.baseurl }}/">Home</a></li>
-        {% for module in site.data.course.modules %}
-				<li class="dropdown">
-					<a href="#" class="dropdown-toggle" data-toggle="dropdown">
-						{{ module }}
-					</a>
-					<ul class="dropdown-menu">
-						{% for post in site.categories[module] reversed %}
-							<li>
-								<a {% if post.url == page.url %}class="active"{% endif %}
-								   href="{{ site.baseurl }}{{ post.url }}">
-									{{ post.title }}
-								</a>
-							</li>
-						{% endfor %}
-					</ul>
+			<ul class="nav navbar-nav">
+				<li class="{% if page.url == post.url %}active{% endif %}">
+					<a href="{% post_url 2000-01-01-start-here %}">Start here</a>
 				</li>
-        {% endfor %}
+				<li {% if page.url contains module %}class="active"{% endif %}>
+					<a href="{{ site.baseurl }}{% post_url 1999-01-01-questions %}">Content</a>
+				</li>
+				{% for module in site.data.course.modules %}
+					<li class="{% if page.url contains module %}active{% endif %} dropdown hidden-print hidden-md hidden-lg">
+						<a href="{{ site.categories[module][2].url }}">
+							{{ module }}
+						</a>
+						<span class="fa fa-caret-down dropdown-toggle visible-xs-block visible-sm-block"
+						      data-toggle="dropdown"></span>
+						<ul class="dropdown-menu">
+							{% for post in site.categories[module] reversed %}
+								<li>
+									<a {% if post.url == page.url %}class="active"{% endif %}
+									   href="{{ site.baseurl }}{{ post.url }}">
+										{{ post.title }}
+									</a>
+								</li>
+							{% endfor %}
+						</ul>
+					</li>
+				{% endfor %}
 				<li>
-					<a href="http://community.p2pu.org/t/using-github-pages-for-open-online-learning-feedback-request/748">Discussion</a>
+					<a target="_blank"
+					   href="http://community.p2pu.org/t/using-github-pages-for-open-online-learning-feedback-request/748">Discussion</a>
 				</li>
 				<!--li>
 					<a href="http://thepeople.p2pu.org" class="btn btn-primary">Sign Up</a>
 				</li-->
+			</ul>
+			<ul class="nav navbar-nav navbar-right">
+				<li><a target="_blank" href="https://github.com/p2pu/writing-for-change">Github</a></li>
 			</ul>
 		</div>
 		<!-- /.navbar-collapse -->
