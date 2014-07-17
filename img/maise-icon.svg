@@ -1,6 +1,66 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" width="90px" height="90px" viewBox="0 0 90 90" enable-background="new 0 0 90 90" xml:space="preserve">
-<g>
-	<circle fill="#000000" cx="45" cy="45" r="10.375"/>
-	<path fill="#000000" d="M77.418,17.531l-4.976,4.976C77.475,28.635,80.5,36.47,80.5,45c0,8.529-3.027,16.362-8.059,22.49   l-6.395-6.395C69.465,56.633,71.5,51.056,71.5,45c0-13.448-10.021-24.549-23.001-26.263l0.001-9.06   c7.165,0.705,13.713,3.544,18.992,7.879l4.976-4.976C65.059,6.297,55.475,2.5,45,2.5C21.528,2.5,2.5,21.528,2.5,45   c0,22.293,17.167,40.563,39,42.345v-7.019C23.562,78.562,9.5,63.395,9.5,45c0-18.393,14.062-33.562,31.999-35.326v9.059   C29.667,20.296,20.3,29.666,18.737,41.5h7.095c1.656-9.085,9.612-16,19.168-16c10.752,0,19.5,8.748,19.5,19.5   c0,10.752-8.748,19.5-19.5,19.5c-9.556,0-17.512-6.915-19.168-16h-7.095c1.714,12.98,12.815,23,26.263,23   c6.057,0,11.635-2.036,16.097-5.454l6.394,6.393c-5.28,4.335-11.824,7.183-18.99,7.888v7.019c21.833-1.781,39-20.052,39-42.345   C87.5,34.524,83.702,24.94,77.418,17.531z"/>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   id="Capa_1"
+   x="0px"
+   y="0px"
+   width="90px"
+   height="90px"
+   viewBox="0 0 90 90"
+   enable-background="new 0 0 90 90"
+   xml:space="preserve"
+   inkscape:version="0.48.3.1 r9886"
+   sodipodi:docname="maise-icon.svg"><metadata
+   id="metadata13"><rdf:RDF><cc:Work
+       rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title></dc:title></cc:Work></rdf:RDF></metadata><defs
+   id="defs11" /><sodipodi:namedview
+   pagecolor="#ffffff"
+   bordercolor="#666666"
+   borderopacity="1"
+   objecttolerance="10"
+   gridtolerance="10"
+   guidetolerance="10"
+   inkscape:pageopacity="0"
+   inkscape:pageshadow="2"
+   inkscape:window-width="1855"
+   inkscape:window-height="1056"
+   id="namedview9"
+   showgrid="false"
+   inkscape:zoom="2.6222222"
+   inkscape:cx="-22.118644"
+   inkscape:cy="45"
+   inkscape:window-x="65"
+   inkscape:window-y="24"
+   inkscape:window-maximized="1"
+   inkscape:current-layer="g3" />
+<g
+   id="g3">
+	<circle
+   cx="45"
+   cy="45"
+   r="10.375"
+   id="circle5"
+   style="fill:#515365;fill-opacity:1"
+   fill="#000000"
+   d="m 55.375,45 c 0,5.729954 -4.645046,10.375 -10.375,10.375 -5.729954,0 -10.375,-4.645046 -10.375,-10.375 0,-5.729954 4.645046,-10.375 10.375,-10.375 5.729954,0 10.375,4.645046 10.375,10.375 z"
+   inkscape:export-filename="/home/erika/DEV/p2pu/writing-for-change/img/course-icon.png"
+   inkscape:export-xdpi="264.68427"
+   inkscape:export-ydpi="264.68427" />
+	<path
+   d="m 23.015542,81.225584 3.128539,-6.303443 C 19.419103,70.719981 14.052632,64.259421 11.331377,56.175136 8.6104402,48.091798 8.9803743,39.702414 11.794474,32.2893 l 8.100989,4.020701 c -1.816874,5.319584 -1.966355,11.254381 -0.03436,16.993939 4.290204,12.745307 17.329041,20.069334 30.177606,17.552871 l 2.889389,8.58691 C 45.912578,81.06135 38.801025,80.45965 32.414907,78.03528 l -3.128539,6.303444 c 9.026274,3.591065 19.320811,4.132157 29.248465,0.790404 C 80.78036,77.64105 92.743752,53.536967 85.255674,31.29144 78.143722,10.163307 56.045215,-1.6753914 34.78455,3.6009243 l 2.239213,6.6522387 C 54.58721,6.2023778 72.753037,16.090779 78.621442,33.524592 84.489209,50.95651 76.001225,69.818974 59.564235,77.213093 L 56.674217,68.62745 C 67.389333,63.371455 73.277649,51.502786 70.983675,39.788512 l -6.724268,2.263459 c 1.328843,9.138585 -4.0054,18.230395 -13.062074,21.278967 -10.19018,3.430122 -21.271876,-2.06997 -24.701998,-12.26015 -3.430122,-10.19018 2.06997,-21.271877 12.26015,-24.701998 9.056674,-3.048572 18.802988,0.966964 23.27077,9.048949 L 68.750523,33.15428 C 62.985182,21.399322 49.26764,15.444354 36.522333,19.734558 30.781827,21.666873 26.14482,25.375989 23.006388,30.038865 l -8.099403,-4.019124 c 3.621147,-5.79292 8.914632,-10.579783 15.48128,-13.534054 L 28.149051,5.8334477 C 8.0250599,14.486587 -2.4160736,37.279526 4.695878,58.407659 c 3.3433385,9.92923 10.000387,17.800797 18.319664,22.817925 z"
+   id="path7"
+   style="fill:#515365;fill-opacity:1"
+   inkscape:connector-curvature="0"
+   inkscape:export-filename="/home/erika/DEV/p2pu/writing-for-change/img/course-icon.png"
+   inkscape:export-xdpi="264.68427"
+   inkscape:export-ydpi="264.68427" />
 </g>
 </svg>

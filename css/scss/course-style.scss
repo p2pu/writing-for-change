@@ -1,5 +1,6 @@
 // Variables:
 $grid-float-breakpoint: 992px;
+$screen-sm: 768px;
 .navbar {
 	position: relative;
 	z-index: 10;
@@ -114,8 +115,11 @@ $grid-float-breakpoint: 992px;
 		color: white;
 		display: inline-block;
 		opacity: 0;
-		padding: 3em;
+		padding: 0;
 		text-align: center;
+		@media (min-width: $screen-sm) {
+				padding: 4.5em 0;
+		}
 
 		header {
 			display: inline-block;
@@ -202,12 +206,15 @@ $grid-float-breakpoint: 992px;
 
 #promo-wrapper {
 	position: relative;
-	background: url('../img/promo-conversation.jpg') center 1000px;
+	background: url('../img/promo-conversation.jpg') center center;
 	background-size: cover;
 	color: #fff;
 	text-align: center;
-	padding: 6em 0 6em 0;
+	padding: 0;
 	margin: 4em 0;
+	@media (min-width: $screen-sm) {
+		padding: 6em 0;
+	}
 
 }
 
