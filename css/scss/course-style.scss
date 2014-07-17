@@ -1,12 +1,6 @@
 // Variables:
 $grid-float-breakpoint: 992px;
 
-.navbar {
-	@media (min-width: $grid-float-breakpoint) {
-		margin-bottom: 0;
-	}
-}
-
 .bs-docs-sidebar {
 	.nav {
 		.nav {
@@ -82,6 +76,7 @@ $grid-float-breakpoint: 992px;
 	padding: 4.5em 0;
 	text-align: center;
 	position: relative;
+	margin-top: -60px;
 
 	a{
 		color: #ffffff;

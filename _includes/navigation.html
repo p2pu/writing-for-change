@@ -18,7 +18,7 @@
 		<div class="collapse navbar-collapse" id="p2pu-menu">
 			<ul class="nav navbar-nav">
 				<li class="{% if page.url == post.url %}active{% endif %}">
-					<a href="{% post_url 2000-01-01-start-here %}">Start here</a>
+					<a href="{{ site.baseurl }}{% post_url 2000-01-01-start-here %}">Start here</a>
 				</li>
 				<li {% if page.url contains module %}class="active"{% endif %}>
 					<a href="{{ site.baseurl }}{% post_url 1999-01-01-questions %}">Content</a>
