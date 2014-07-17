@@ -3,18 +3,39 @@ layout: base
 ---
 
 <div class="container">
-  <div class="row">
-    <div class="content col-lg-12">
-      {{ content }}
-      {% assign module=page.categories[0] %}
-      {% include next_in_module.html %}
-
-      {% if prev %} 
-        <p><a rel="prev" href="{{ site.baseurl }}{{ prev.url }}">&larr; Go back to {{prev.title}}</a></p>
-      {% endif %}
-      {% if next %} 
-        <p><a rel="next" href="{{ site.baseurl }}{{ next.url }}">Move on to {{ next.title }} &rarr;</a></p>
-      {% endif %}
-    </div>
-  </div>
+	<div class="col-md-3 first navbar-spy">
+		<nav class="bs-docs-sidebar">
+			<ul class="nav nav-pills nav-stacked hidden-print hidden-xs hidden-sm">
+				{% for module in site.data.course.modules %}
+					<li {% if page.url contains module %}class="active"{% endif %}>
+						<a href="{{ site.baseurl }}{{ site.categories[module][2].url }}">{{ module }}</a>
+						<ul class="nav">
+							{% for post in site.categories[module] reversed %}
+								<li {% if post.url == page.url %}class="active"{% endif %}>
+									<a href="{{ site.baseurl }}{{ post.url }}">
+										{{ post.title }}
+									</a>
+								</li>
+							{% endfor %}
+						</ul>
+					</li>
+				{% endfor %}
+			</ul>
+		</nav>
+	</div>
+	<div class="content col-lg-9">
+		{{ content }}
+		{% assign module=page.categories[0] %}
+		{% include next_in_module.html %}
+		<ul class="pager">
+			{% if prev %}
+				<li class="prev"><a rel="prev" href="{{ site.baseurl }}{{ prev.url }}">&larr; Go back
+				                                                                to {{ prev.title }}</a></li>
+			{% endif %}
+			{% if next %}
+				<li class="next"><a rel="next" href="{{ site.baseurl }}{{ next.url }}">Move on
+				                                                         to {{ next.title }} &rarr;</a></li>
+			{% endif %}
+		</ul>
+	</div>
 </div>

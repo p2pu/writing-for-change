@@ -1,0 +1,244 @@
+// Variables:
+$grid-float-breakpoint: 992px;
+.navbar {
+	position: relative;
+	z-index: 10;
+}
+
+.bs-docs-sidebar {
+	.nav {
+		.nav {
+			display: none;
+			padding-bottom: 10px;
+		}
+		& >.active > ul {
+			display: block;
+		}
+	}
+}
+
+/* Banner */
+@-moz-keyframes reveal-banner {
+	0% {
+		opacity: 0;
+	}
+
+	100% {
+		opacity: 1;
+	}
+}
+
+@-webkit-keyframes reveal-banner {
+	0% {
+		opacity: 0;
+	}
+
+	100% {
+		opacity: 1;
+	}
+}
+
+@-o-keyframes reveal-banner {
+	0% {
+		opacity: 0;
+	}
+
+	100% {
+		opacity: 1;
+	}
+}
+
+@-ms-keyframes reveal-banner {
+	0% {
+		opacity: 0;
+	}
+
+	100% {
+		opacity: 1;
+	}
+}
+
+@keyframes reveal-banner {
+	0% {
+		opacity: 0;
+	}
+
+	100% {
+		opacity: 1;
+	}
+}
+
+#banner {
+	background-attachment: fixed;
+	background-color: #645862;
+	background-image: url("../img/alarm.jpg");
+	background-position: top center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: white;
+	cursor: default;
+	padding: 4.5em 0;
+	text-align: center;
+	position: relative;
+	margin-top: -60px;
+	margin-bottom: 4em;
+
+	a {
+		color: #ffffff;
+		border-bottom: dotted 1px;
+		&:hover, &:focus {
+			text-decoration: none;
+			border-bottom-color: transparent;
+		}
+	}
+
+	.splash {
+		background-color: rgba(81, 83, 101, 0.5);
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		top: 0;
+	}
+
+	.inner {
+		-moz-animation: reveal-banner 1s 0.25s ease-in-out;
+		-webkit-animation: reveal-banner 1s 0.25s ease-in-out;
+		-o-animation: reveal-banner 1s 0.25s ease-in-out;
+		-ms-animation: reveal-banner 1s 0.25s ease-in-out;
+		animation: reveal-banner 1s 0.25s ease-in-out;
+		-moz-animation-fill-mode: forwards;
+		-webkit-animation-fill-mode: forwards;
+		-o-animation-fill-mode: forwards;
+		-ms-animation-fill-mode: forwards;
+		animation-fill-mode: forwards;
+		color: white;
+		display: inline-block;
+		opacity: 0;
+		padding: 3em;
+		text-align: center;
+
+		header {
+			display: inline-block;
+			border-bottom: solid 2px;
+			border-top: solid 2px;
+			margin: 0 0 2em 0;
+			padding: 3px 0 3px 0;
+		}
+
+		header h2 {
+			border-bottom: solid 2px;
+			border-top: solid 2px;
+			font-family: 'Arvo', sans-serif;
+			font-size: 2.5em;
+			font-weight: 900;
+			letter-spacing: 0.2em;
+			margin: 0;
+			padding-left: 0.05em;
+			position: relative;
+			text-transform: uppercase;
+		}
+		p {
+			letter-spacing: 0.1em;
+			margin: 0;
+			text-transform: uppercase;
+		}
+	}
+
+}
+
+@-moz-keyframes reveal-header {
+	0% {
+		top: -5em;
+	}
+
+	100% {
+		top: 0;
+	}
+}
+
+@-webkit-keyframes reveal-header {
+	0% {
+		top: -5em;
+	}
+
+	100% {
+		top: 0;
+	}
+}
+
+@-o-keyframes reveal-header {
+	0% {
+		top: -5em;
+	}
+
+	100% {
+		top: 0;
+	}
+}
+
+@-ms-keyframes reveal-header {
+	0% {
+		top: -5em;
+	}
+
+	100% {
+		top: 0;
+	}
+}
+
+@keyframes reveal-header {
+	0% {
+		top: -5em;
+	}
+
+	100% {
+		top: 0;
+	}
+}
+
+.index-main-content {
+	font-size: 17pt;
+}
+
+#promo-wrapper {
+	position: relative;
+	background: url('../img/promo-conversation.jpg') center 1000px;
+	background-size: cover;
+	color: #fff;
+	text-align: center;
+	padding: 6em 0 6em 0;
+	margin: 4em 0;
+
+}
+
+#promo-til {
+	position: absolute;
+	background-color: rgba(0, 0, 0, 0.3);
+	width: 100%;
+	height: 100%;
+	top: 0;
+}
+
+#promo {
+	background: rgba(255, 255, 255, 0.05);
+	border: solid 1px rgba(255, 255, 255, 0.25);
+	border-radius: 0.5em;
+	padding: 1.75em 2.5em 1.75em 2.5em;
+	display: inline-block;
+	position: relative;
+	z-index: 10;
+}
+
+#promo h2 {
+	display: inline-block;
+	margin-right: 1em;
+	font-size: 1.75em;
+	color: #fff;
+}
+
+#promo .button {
+	background: #fff;
+	border-color: rgba(255, 255, 255, 0);
+	color: #27636B;
+	font-size: 1.25em;
+}

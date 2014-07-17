@@ -1,2 +1,7 @@
 _site
 *~
+.idea/
+DS_Store
+.sass-cache/
+.rvmrc
+.idea
