@@ -8,7 +8,7 @@ layout: base
 			<ul class="nav nav-pills nav-stacked hidden-print hidden-xs hidden-sm">
 				{% for module in site.data.course.modules %}
 					<li {% if page.url contains module %}class="active"{% endif %}>
-						<a href="{{ site.categories[module][2].url }}">{{ module }}</a>
+						<a href="{{ site.baseurl }}{{ site.categories[module][2].url }}">{{ module }}</a>
 						<ul class="nav">
 							{% for post in site.categories[module] reversed %}
 								<li {% if post.url == page.url %}class="active"{% endif %}>
