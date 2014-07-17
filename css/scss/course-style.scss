@@ -71,7 +71,7 @@ $grid-float-breakpoint: 992px;
 #banner {
 	background-attachment: fixed;
 	background-color: #645862;
-	background-image: url("../img/the-machine-blured.jpg");
+	background-image: url("../img/alarm.jpg");
 	background-position: top center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -195,4 +195,49 @@ $grid-float-breakpoint: 992px;
 	}
 }
 
+.index-main-content {
+	font-size: 17pt;
+}
 
+#promo-wrapper {
+	position: relative;
+	background: url('../img/promo-conversation.jpg') center 1000px;
+	background-size: cover;
+	color: #fff;
+	text-align: center;
+	padding: 6em 0 6em 0;
+	position: relative;
+	margin: 4em 0;
+}
+
+#promo-til {
+	position: absolute;
+	background-color: rgba(0, 0, 0, 0.3);
+	width: 100%;
+	height: 100%;
+	top: 0;
+}
+
+#promo {
+	background: rgba(255, 255, 255, 0.05);
+	border: solid 1px rgba(255, 255, 255, 0.25);
+	border-radius: 0.5em;
+	padding: 1.75em 2.5em 1.75em 2.5em;
+	display: inline-block;
+	position: relative;
+	z-index: 10;
+}
+
+#promo h2 {
+	display: inline-block;
+	margin-right: 1em;
+	font-size: 1.75em;
+	color: #fff;
+}
+
+#promo .button {
+	background: #fff;
+	border-color: rgba(255, 255, 255, 0);
+	color: #27636B;
+	font-size: 1.25em;
+}
