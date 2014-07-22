@@ -2,4 +2,10 @@
 title: Reading
 layout: course_page
 ---
-# Reading
+# Readings
+
+This week's readings are about the objects that are always with you--that made you who you are.
+
+## Essay: Sherry Turkle & Paul Auster
+- http://courses.ischool.berkeley.edu/i290-2/s08/readings/Turkle_Evocative_Objects.pdf Sherry Turkle
+- https://www.dropbox.com/s/a458ehyq0j33snc/Whats%20Your%20Pencil.pdf
