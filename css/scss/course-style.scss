@@ -265,3 +265,12 @@ $screen-sm: 768px;
 
 	font-size: 16px;
 }
+
+.pager{
+	li{
+		float: left;
+		&.next{
+			float: right;
+		}
+	}
+}

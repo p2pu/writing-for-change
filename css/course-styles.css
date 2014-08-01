@@ -187,3 +187,8 @@
 
 .collaborators {
   font-size: 16px; }
+
+.pager li {
+  float: left; }
+  .pager li.next {
+    float: right; }
