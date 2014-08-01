@@ -31,6 +31,20 @@ var W4C = window.W4C || {};
 				}
 			});
 
+            var signupForm = $('#id-form-signup');
+            if (signupForm.length){
+                signupForm.submit(function(event){
+                    event.preventDefault();
+                    $.post(signupForm.attr('action'), signupForm.serialize()).done(function() {
+                        window.location = '/signup/success';
+                    })
+                    .fail(function() {
+                        alert( "Something went wrong with you signup, please try re-submitting your signup." );
+                    })
+                    .always(function() {
+                    });
+                });
+            }
 		});
 	};
 
