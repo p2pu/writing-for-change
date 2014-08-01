@@ -34,14 +34,17 @@ var W4C = window.W4C || {};
             var signupForm = $('#id-form-signup');
             if (signupForm.length){
                 signupForm.submit(function(event){
+                    $('#signup-form-error').addClass('hidden');
                     event.preventDefault();
+                    $('#id-form-signup :submit').button('loading')
                     $.post(signupForm.attr('action'), signupForm.serialize()).done(function() {
                         window.location = '/signup/success';
                     })
                     .fail(function() {
-                        alert( "Something went wrong with you signup, please try re-submitting your signup." );
+                        $('#signup-form-error').removeClass('hidden');
                     })
                     .always(function() {
+                        $('#id-form-signup :submit').button('reset')
                     });
                 });
             }
