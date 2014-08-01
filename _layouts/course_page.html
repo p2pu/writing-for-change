@@ -3,11 +3,12 @@ layout: base
 ---
 
 <div class="container">
-	<div class="col-md-3 first navbar-spy">
+	<div class="col-md-2 first navbar-spy">
 		<nav class="bs-docs-sidebar">
 			<ul class="nav nav-pills nav-stacked hidden-print hidden-xs hidden-sm">
 				{% for module in site.data.course.modules %}
-					{% assign mod_name = module|downcase|replace:' ','' %}
+					{% assign mod_name = module|split:":" %}
+					{% assign mod_name = mod_name[0]|downcase|replace:' ','' %}
 					<li {% if page.url contains mod_name %}class="active"{% endif %}>
 						<a href="{{ site.baseurl }}{{ site.categories[mod_name][2].url }}">{{ module }}</a>
 						<ul class="nav">
@@ -24,19 +25,41 @@ layout: base
 			</ul>
 		</nav>
 	</div>
-	<div class="content col-lg-9">
-		{{ content }}
-		{% assign module=page.categories[0] %}
-		{% include next_in_module.html %}
-		<ul class="pager">
+	<div class="content col-lg-10">
+		{% if page.image %}
+			<div class="col-md-8">
+				{{ content }}
+				{% assign module=page.categories[0] %}
+				{% include next_in_module.html %}
+
+			</div>
+			<div class="col-md-4 thumbnail">
+				<img src="{{ '/img/course_images/' | prepend: site.baseurl }}{{ page.image }}"
+				     class="img-rounded" alt="Course Image" />
+			<span class="image-attribution pull-right">
+				<small>by {{ page.image-attribution }}</small>
+			</span>
+			</div>
+		{% else %}
+
+			{{ content }}
+			{% assign module=page.categories[0] %}
+			{% include next_in_module.html %}
+
+		{% endif %}
+
+		<ul class="pager clearfix">
 			{% if prev %}
 				<li class="prev"><a rel="prev" href="{{ site.baseurl }}{{ prev.url }}">&larr; Go back
-				                                                                to {{ prev.title }}</a></li>
+				                                                                              to {{ prev.title }}</a>
+				</li>
 			{% endif %}
 			{% if next %}
 				<li class="next"><a rel="next" href="{{ site.baseurl }}{{ next.url }}">Move on
-				                                                         to {{ next.title }} &rarr;</a></li>
+				                                                                       to {{ next.title }} &rarr;</a>
+				</li>
 			{% endif %}
 		</ul>
+
 	</div>
 </div>

@@ -1,6 +1,9 @@
 .first {
   padding-left: 0; }
 
+img {
+  max-width: 100%; }
+
 .navbar {
   position: relative;
   z-index: 10; }
@@ -8,8 +11,13 @@
 .bs-docs-sidebar .nav .nav {
   display: none;
   padding-bottom: 10px; }
+  .bs-docs-sidebar .nav .nav li > a {
+    padding: 10px 10px 10px 30px; }
 .bs-docs-sidebar .nav > .active > ul {
   display: block; }
+.bs-docs-sidebar .nav > li > a {
+  line-height: 1;
+  padding: 15px; }
 
 /* Banner */
 @-moz-keyframes reveal-banner {

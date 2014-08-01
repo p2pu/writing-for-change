@@ -7,6 +7,10 @@ $screen-sm: 768px;
 	padding-left: 0;
 }
 
+img {
+	max-width: 100%;
+}
+
 .navbar {
 	position: relative;
 	z-index: 10;
@@ -17,9 +21,18 @@ $screen-sm: 768px;
 		.nav {
 			display: none;
 			padding-bottom: 10px;
+
+			li > a{
+				padding: 10px 10px 10px 30px;
+			}
+
 		}
 		& > .active > ul {
 			display: block;
+		}
+		& > li > a {
+			line-height: 1;
+			padding: 15px;
 		}
 	}
 }
@@ -256,20 +269,21 @@ $screen-sm: 768px;
 	font-size: 1.25em;
 }
 
-.badges-wrapper{
-	img{
+.badges-wrapper {
+	img {
 		width: 250px;
 	}
 }
-.collaborators{
+
+.collaborators {
 
 	font-size: 16px;
 }
 
-.pager{
-	li{
+.pager {
+	li {
 		float: left;
-		&.next{
+		&.next {
 			float: right;
 		}
 	}
