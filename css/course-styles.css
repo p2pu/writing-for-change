@@ -157,7 +157,7 @@ img {
   color: #fff;
   text-align: center;
   padding: 0;
-  margin: 4em 0; }
+  margin-bottom: 4em; }
   @media (min-width: 768px) {
     #promo-wrapper {
       padding: 6em 0; } }
@@ -190,11 +190,15 @@ img {
   color: #27636B;
   font-size: 1.25em; }
 
-.badges-wrapper img {
-  width: 250px; }
-
-.collaborators {
-  font-size: 16px; }
+.badges-wrapper {
+  background-color: #FFBC1A;
+  padding-bottom: 4em;
+  color: #ffffff; }
+  .badges-wrapper img {
+    width: 250px; }
+  .badges-wrapper .thumbnail {
+    background-color: transparent;
+    border: none; }
 
 .pager li {
   float: left; }
