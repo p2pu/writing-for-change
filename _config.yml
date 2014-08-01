@@ -1,3 +1,5 @@
 baseurl:
 markdown: redcarpet
 permalink: /:categories/:title/
+url: writing4change.p2pu.org
+ga_tracking_code: UA-5757664-22
