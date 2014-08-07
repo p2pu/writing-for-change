@@ -17,6 +17,15 @@ This week's theme is about looking around your world and identifying which socia
 
 - How do I write something that starts to move the needle in that direction?
 
+### Head on Over to [Discourse](http://discourse.p2pu.org/category/writing-for-change) and Find Your Crew
+
+- In Discourse, check out the ["How Do I Find My Group"](http://discourse.p2pu.org/t/how-do-i-find-my-group/54) thread, choose a subcategory of an issue that is important to you, and introduce yourself. 
+
+<img src="{{ site.baseurl }}/img/Discourse3.jpg" alt=""></a>
+
+
+
+
  
 
 
