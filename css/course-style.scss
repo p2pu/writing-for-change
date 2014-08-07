@@ -99,11 +99,10 @@ img {
 	background-size: cover;
 	color: white;
 	cursor: default;
-	padding: 4.5em 0;
+	padding: 1em 0;
 	text-align: center;
 	position: relative;
 	margin-top: -60px;
-	margin-bottom: 4em;
 
 	a {
 		color: #ffffff;
@@ -113,6 +112,15 @@ img {
 			border-bottom-color: transparent;
 		}
 	}
+
+    .w4c-btn-signup {
+        border: 1px solid;
+        margin-top: 1em;
+        &:hover, &:focus {
+            border: 1px solid;
+            background-color: rgba(255, 255, 255, 0.1);
+        }
+    }
 
 	.splash {
 		background-color: rgba(81, 83, 101, 0.5);
