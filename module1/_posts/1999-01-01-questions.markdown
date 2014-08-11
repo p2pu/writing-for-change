@@ -5,23 +5,29 @@ image: issue-photo.jpg
 image-attribution: Tomasz Stasiuk
 ---
 
-## The issue
+## Week 1: Who Are You?
 
-This week's theme is about looking around your world and identifying which social issues you encounter in your day-to-day life. We'll ask you to do some freewriting about your own background to try and unpack which issues are important to you.
+In Weeks 1 – 3 you will identify and/or clarify a social issue that matters to you--something that motivates you to enact change. In Weeks 4 - 7, you will plan and write for change collectively.   
+ 
+This week you’ll look around your world and identify social issues you encounter in your day-to-day life. In addition, you’ll do some freewriting about your own background to try and unpack which issues are most important to you because of who you are. 
+ 
+The readings will prompt your thinking, preparing you for this week's writing activities.  Beginning conversations within "Discourse" will help you as well.  In Discourse is where you'll really connect with your peers and where you'll post your work. Sharing writing online is hard, but we're gonna try, together, to make a space thats welcoming, exciting, and inclusive.
 
-### Key Questions To Think About This Week
-
+### Key Questions
+The questions below are to guide your thinking this week:
 - What issues in the world around me am I connected to? 
-
 - What are the problems that I engage with in my life that I want to tackle? 
-
-- How do I write something that starts to move the needle in that direction?
+- Creation myths explain how things began, what they are composed of and what forces shaped them.  What is your personal creation myth?
+- What am I interested in writing that could begin to move the needle on a particular issue?
 
 ### Head on Over to [Discourse](http://discourse.p2pu.org/category/writing-for-change) and Find Your Crew
 
 - In Discourse, check out the ["How Do I Find My Group"](http://discourse.p2pu.org/t/how-do-i-find-my-group/54) thread, choose a subcategory of an issue that is important to you, and introduce yourself. 
 
 <img src="{{ site.baseurl }}/img/Discourse3.jpg" alt=""></a>
+
+
+ 
 
 
 
