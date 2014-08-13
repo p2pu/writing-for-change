@@ -4,4 +4,5 @@ layout: course_page
 ---
 # Questions
 
-We'll post future modules further in the course
+- Who has already started to answer, engage and solve this question? (Historical & neighborhood research)
+- Find a recommendation for a resource, or an in-person expert, come up with your research list. 
