@@ -1,5 +1,9 @@
 @import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:300);
 
+// Variables:
+$grid-float-breakpoint: 992px;
+$screen-sm: 768px;
+
 @mixin headings {
 	h1, h2, h3,
 	h4, h5, h6 {
@@ -24,6 +28,39 @@
 			background-color: transparent !important;
 			color: #d3d8e6;
 		}
+	}
+
+	@media (min-width: $grid-float-breakpoint) {
+		margin-bottom: 60px;
+		border-bottom: 2em solid transparent;
+	}
+
+}
+
+.navbar-toggle {
+	@media (min-width: 320px) {
+		color: $white;
+
+		&:hover {
+			color: $gray;
+		}
+	}
+}
+
+.navbar-collapse {
+	@media (min-width: 320px) {
+		background-color: $gray-darker;
+		color: $white;
+	}
+
+	@media (min-width: $grid-float-breakpoint) {
+		background-color: transparent;
+	}
+}
+
+.navbar .nav > li.dropdown.open > a{
+	@media (min-width: 320px) {
+			color: $gray-dark;
 	}
 }
 
@@ -294,11 +331,11 @@
 	font-size: 0.8em;
 	line-height: 1.8em;
 
-	img{
+	img {
 		margin: 1em 0;
 	}
 }
 
-.p2pu-footer{
+.p2pu-footer {
 	margin-top: 0;
 }
