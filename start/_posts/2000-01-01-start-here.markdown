@@ -6,7 +6,7 @@ layout: course_page
 
 ## Your main tools will be:
 - The Writing4Change [landing page](http://writing4change.p2pu.org/) for readings and writing prompts.
-- The Writing4Change [Discourse community](http://discourse.p2pu.org/category/writing-for-change) for posting assigments and giving feedback.
+- Your small group in the  [Discourse community](http://discourse.p2pu.org/t/how-do-i-find-my-group/54).
 - If you use Twitter, we like #w4change
 - You'll get some stellar missives in your inbox from Adam and Vanessa, but the main action will be on Discourse.
 
