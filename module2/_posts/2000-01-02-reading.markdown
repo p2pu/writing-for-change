@@ -4,4 +4,4 @@ layout: course_page
 ---
 # Reading
 
-- Peter Elbow's Writing Without Teachers: http://nzr.mvnu.edu/faculty/trearick/english/rearick/exposwrt/Elbow%20Learning%20Without%20Writing%20Teachers.pdf
+- (Peter Elbow's Writing Without Teachers) [http://nzr.mvnu.edu/faculty/trearick/english/rearick/exposwrt/Elbow%20Learning%20Without%20Writing%20Teachers.pdf]
