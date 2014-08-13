@@ -15,6 +15,7 @@ The readings will prompt your thinking, preparing you for this week's writing ac
 
 ### Key Questions
 The questions below are to guide your thinking this week:
+
 - What issues in the world around me am I connected to? 
 - What are the problems that I engage with in my life that I want to tackle? 
 - Creation myths explain how things began, what they are composed of and what forces shaped them.  What is your personal creation myth?
