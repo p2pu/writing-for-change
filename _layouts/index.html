@@ -1,0 +1,108 @@
+<!doctype html>
+<!--[if lt IE 7 ]><html lang="en" class="no-js ie6"> <![endif]-->
+<!--[if IE 7 ]><html lang="en" class="no-js ie7"> <![endif]-->
+<!--[if IE 8 ]><html lang="en" class="no-js ie8"> <![endif]-->
+<!--[if IE 9 ]><html lang="en" class="no-js ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!-->
+<html lang="en" class="no-js"> <!--<![endif]-->
+<head>
+	<script type="text/javascript">var _sf_startpt = (new Date()).getTime()</script>
+	<meta charset="utf-8">
+	<!--[if IE]><meta content='IE=8' http-equiv='X-UA-Compatible' /><![endif]-->
+
+	<title>{{ site.data.course.title }}{% if page.title %} | {{ page.title }}{% endif %}</title>
+	<meta name="description" content="Learning for everyone, by everyone, about almost anything.">
+	<meta name="author" content="p2pu">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!--change this to serve from gh pages -->
+	<link rel="shortcut icon" href="https://p2pu.org/static/images/favicon.ico">
+	<link rel="apple-touch-icon" href="https://p2pu.org/static/images/apple-touch-icon.png">
+	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="{{ site.baseurl }}/css/p2pustrap.min.css" />
+<link rel="stylesheet" href="{{ site.baseurl }}/css/p2pustrap-index.css" />
+	<link rel="stylesheet" href="{{ site.baseurl }}/css/course-style.css" />
+
+	<script type="text/javascript" src="{{ site.baseurl }}/js/modernizr-2.6.2.min.js"></script>
+</head>
+<body {% if page.itemtype %}itemscope itemtype="{{ page.itemtype }}"{% endif %}
+      class="{{ page.body-class }}">
+
+<!-- Navigation -->
+<nav class="navbar" role="navigation">
+	<div class="container">
+		<!-- Brand and toggle get grouped for better mobile display -->
+		<div class="navbar-header">
+			<a href="{{ site.baseurl }}/" class="navbar-brand">
+				<img src="{{ site.baseurl }}/img/logo.png" alt="P2PU Logo" />
+			</a>
+			<a class="navbar-toggle" data-toggle="collapse" data-target="#p2pu-menu">
+				<i class="fa fa-bars"></i>
+			</a>
+			<a class="p2pu-tab" href="#">
+				<i class="fa fa-chevron-down p2pu-tab-icon"></i>
+			</a>
+		</div>
+
+		<!-- Collect the nav links, forms, and other content for toggling -->
+		<div class="collapse navbar-collapse" id="p2pu-menu">
+			<ul class="nav navbar-nav navbar-right">
+				<li class="{% if page.url == post.url %}active{% endif %}">
+					<a href="{{ site.baseurl }}{% post_url 2000-01-01-start-here %}">Start here</a>
+				</li>
+				<li {% if page.url contains module %}class="active"{% endif %}>
+					<a href="{{ site.baseurl }}{% post_url 1999-01-01-questions %}">Content</a>
+				</li>
+				{% for module in site.data.course.modules %}
+					<li class="{% if page.url contains module %}active{% endif %} dropdown hidden-print hidden-md hidden-lg">
+					{% assign mod_name = module|split:":" %}
+					{% assign mod_name = mod_name[0]|downcase|replace:' ','' %}
+						<a href="{{ site.categories[mod_name][2].url }}">
+							{{ module }}
+						</a>
+						<span class="fa fa-caret-down dropdown-toggle visible-xs-block visible-sm-block"
+						      data-toggle="dropdown"></span>
+						<ul class="dropdown-menu">
+							{% for post in site.categories[mod_name] reversed %}
+								<li>
+									<a {% if post.url == page.url %}class="active"{% endif %}
+									   href="{{ site.baseurl }}{{ post.url }}">
+										{{ post.title }}
+									</a>
+								</li>
+							{% endfor %}
+						</ul>
+					</li>
+				{% endfor %}
+				<li>
+					<a target="_blank"
+					   href="http://discourse.p2pu.org/category/writing-for-change">Discussion</a>
+				</li>
+			</ul>
+		</div>
+		<!-- /.navbar-collapse -->
+	</div>
+	<!-- /.container-fluid -->
+</nav>
+<!-- End Navigation -->
+
+{{ content }}
+
+{% include footer.html %}
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="{{ site.baseurl }}/js/jquery.min.js"><\/script>')</script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.2.0/js/bootstrap.js"></script>
+<script type="text/javascript" src="http://rawgithub.com/p2pu/p2pu_navigation_widget/master/p2pu_menu_slider.js"></script>
+<script src="{{ site.baseurl }}/js/page-init.js"></script>
+<script>
+	W4C.Splash.init();
+</script>
+
+<!-- Google Analytics -->
+{% if site.ga_tracking_code %}
+	{% include ga.html %}
+{% endif %}
+
+</body>
+</html>

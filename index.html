@@ -1,112 +1,156 @@
 ---
-layout: base
+layout: index
 ---
 <!-- Banner -->
 <section id="banner">
-	<div class="splash"></div>
-	<div class="inner">
+	<div class="container">
+		<div class="inner col-md-8">
+			<header>
+				<h1>Get help writing grant proposals,<br /> applications and op-eds</h1>
+				<br />
+				<br />
 
-		<header>
-			<h2>{{ site.data.course.title }}</h2>
-		</header>
-		<p>A free course to help you enact social change<br />
-		   together with <a target="_blank" href="http://collegeunbound.org/">College Unbound</a> and <a target="_blank" href="http://p2pu.org">P2PU</a>.</p><br />
-		<p>Open for signup now, starts August 15</p>
-    <p><a class="btn btn-large w4c-btn-signup" href="{{site.baseurl}}/signup/">Sign up</a></p>
+				<h2>A free course to help you enact social change</h2>
+				<h4>Together with
+					<a target="_blank" href="http://collegeunbound.org/">
+						College Unbound</a> and <a target="_blank" href="http://p2pu.org">P2PU</a></h4>.
+				<div class="header-intro"><h2>Writing for change</h2></div>
+			</header>
+		</div>
+		<div class="col-md-4">
+			<div class="signup-form">
+				<h3>Signup is Open Now:</h3>
+
+				<h2>We Start August 15!</h2>
+				<small>
+					Add your email address and we will send you notifications and updates about the course.
+				</small>
+				{% include signup.html %}
+			</div>
+		</div>
 	</div>
 </section>
 <div class="index-main-content">
 	<div class="container">
 		<div class="row">
-			<h2>The 411</h2>
+			<div class="col-md-10">
+				<h2>The 411</h2>
 
-			<div class="col-md-8">
 				<p>
 				<ul>
-				<li>If you need help writing <b>grant proposals, applications and op-eds</b>, in this 8-week course you will craft a polished, complete piece. </li>
-				<li>Each module will have a reading portion and a writing portion. We’ll start with your personal biography and establish why you care about this issue.</li>
-				<li>You'll find your crew on the <a href="http://discourse.p2pu.org/category/writing-for-change">Discourse</a> community who are also passionate about similar issues.</li>
-				<li>Featured writers include <a href="http://mirkwork.wordpress.com/">Sarah Mirk</a> of Bitch Media, <a href="http://annenberg.usc.edu/Faculty/Doctoral%20Students/Agloro_Alexandrina.aspx">Alexandrina Agloro</a> of the University of Southern California and more.
+					<li class="clearfix">
+						<div class="col-md-3">
+							<i class="fa fa-question-circle fa-5x"></i>
+						</div>
+						<div class="col-md-9">
+							If you need help writing <b>grant proposals, applications and op-eds</b>, in this
+							8-week course you will craft a polished, complete piece.
+						</div>
+					</li>
+					<li class="clearfix">
+						<div class="col-md-3">
+							<i class="fa fa-cube fa-5x"></i>
+						</div>
+						<div class="col-md-9">
+							Each module will have a reading portion and a writing portion. We’ll start with your
+							personal biography and establish why you care about this issue.
+						</div>
+					</li>
+					<li class="clearfix">
+						<div class="col-md-3">
+							<i class="fa fa-users fa-5x"></i>
+						</div>
+						<div class="col-md-9">
+							You'll find your crew on the <a
+								href="http://discourse.p2pu.org/category/writing-for-change">Discourse</a> community
+							who are also passionate about similar issues.
+						</div>
+					</li>
+					<li class="clearfix">
+						<div class="col-md-3">
+							<i class="fa fa-star-o fa-5x"></i>
+						</div>
+						<div class="col-md-9">
+							Featured writers include <a href="http://mirkwork.wordpress.com/">Sarah Mirk</a> of
+							Bitch Media,
+							<a href="http://annenberg.usc.edu/Faculty/Doctoral%20Students/Agloro_Alexandrina.aspx">
+								Alexandrina Agloro</a>
+							of the University of Southern California and more.
+						</div>
 				</ul>
 				<br />
-			</p>
-			</div>
-			<div class="col-md-4 text-center hidden-xs hidden-sm">
-				<img src="{{ site.baseurl }}/img/course-icon.png" alt="Course Icon" />
+				</p>
 			</div>
 		</div>
 	</div>
 	<div class="badges-wrapper">
 		<div class="container">
-			<h2>Badges Available for Writing For Change</h2>
-			<p>
-				You can apply for the following badges in the course, with feedback from Adam Bush of College Unbound.
-			</p>
-			<ul class="thumbnails clearfix first">
-				<li class="thumbnail col-md-4 first">
-					<a class="course-badge" href="http://badges.p2pu.org/en/badge/view/542/">
-						<img src="{{ 'img/Badges/writing4change-communication.png' | prepend: site.baseurl}}"
-						     alt="Badge of Communication" />
-					</a>
-				</li>
-				<li class="thumbnail col-md-4">
-					<a class="course-badge" href="http://badges.p2pu.org/en/badge/view/541/">
-						<img src="{{ 'img/Badges/writing4change-collaboration.png' | prepend: site.baseurl}}"
-						     alt="Badge of Collaboration" />
-					</a>
-				</li>
-				<li class="thumbnail col-md-4">
-					<a class="course-badge" href="http://badges.p2pu.org/en/badge/view/540/">
-						<img src="{{ 'img/Badges/writing4change-advocacy.png' | prepend: site.baseurl}}"
-						     alt="Badge of Advocacy" />
-					</a>
-				</li>
-			</ul>
+			<div class="col-md-8 first">
+				<h1>Things to Be Achieved</h1>
+				<h3>Badges Available for Writing For Change</h3>
+
+				<p>
+					You can apply for the following badges in the course, with feedback from Adam Bush of
+					College Unbound.
+				</p>
 			</div>
+			<div class="col-md-4">
+				<a href="http://badges.p2pu.org/en/badge/view/541/" target="_blank">
+				<img src="{{ "img/badges-writing4change.png" | prepend: site.baseurl }}"
+				     alt="Badges for the course" /></a>
+			</div>
+		</div>
+	</div>
+	<div class="container collaborators">
+		<div class="row">
+			<div class="col-md-12">
+				<h2>Our "Street Cred":</h2>
+
+				<div class="col-md-6 first">
+					<p>
+						<img src="{{ site.baseurl }}/img/cu-logo.png" alt="College Unbound Logo" />
+					</p>
+
+					<p>
+						<a href="http://collegeunbound.org/">College Unbound</a>
+						's goal is to support adult learners as college students in a project-based program
+						that is relevant to their lives. Marginalized and underserved student populations earn
+						an accredited degree via civic engagement projects and real-life experience.
+						Students--among them previously incarcerated, single-moms and other marginalized
+						peoples--earn an accredited degree via civic engagement projects and real-life
+						experience. </p>
+				</div>
+				<div class="col-md-6">
+					<p>
+						<img src="{{ site.baseurl }}/img/logo.png" alt="College Unbound Logo" />
+					</p>
+
+					<p>
+						<a href="https://p2pu.org/en/">P2PU</a>
+						is a university for the web, built by an open community. Instead of lonely,
+						anonymous online courses, our communities sustain interest and engagement because folks
+						build them together. We are open and welcoming in everything we do, and help folks
+						generally feel comfy on the internet. Our core values are openness, community and peer
+						learning, and we've built learning communities with the likes of Creative Commons,
+						Mozilla, NYU and MIT.</p>
+				</div>
+			</div>
+			<div class="col-md-4 hidden-xs">
+
+			</div>
+		</div>
 	</div>
 	<div id="promo-wrapper">
 		<div id="promo-til"></div>
 		<section id="promo">
-			<h2 class="hidden-xs">We're a friendly crew.</h2>
+			<h2 class="hidden-xs">We're a friendly crew.</h2><br /><br />
 			<a target="_blank" href="http://discourse.p2pu.org/category/writing-for-change" class="btn
 			btn-info btn-lg">
-				Get Started and Say Hi.
+				Get in Touch
 			</a>
 		</section>
 
 	</div>
 
-
-	<div class="container collaborators">
-		<div class="row">
-			<div class="col-md-12">
-				<h2>Our "Street Cred":</h2>
-				<div class="col-md-6 first">
-					<p>
-						<img src="{{site.baseurl}}/img/cu-logo.png" alt="College Unbound Logo" />
-					</p>
-				<p>
-					<a href="http://collegeunbound.org/">College Unbound</a>
-					's goal is to support adult learners as college students in a project-based program
-					that is relevant to their lives. Marginalized and underserved student populations earn an accredited degree via civic engagement projects and real-life experience. Students--among them previously incarcerated, single-moms and other marginalized peoples--earn an accredited degree via civic engagement projects and real-life experience. </p>
-				</div>
-				<div class="col-md-6">
-					<p>
-						<img src="{{site.baseurl}}/img/logo.png" alt="College Unbound Logo" />
-					</p>
-				<p>
-					<a href="https://p2pu.org/en/">P2PU</a>
-					is a university for the web, built by an open community. Instead of lonely,
-					anonymous online courses, our communities sustain interest and engagement because folks build them together. We are open and welcoming in everything we do, and help folks generally feel comfy on the internet. Our core values are openness, community and peer learning, and we've built learning communities with the likes of Creative Commons, Mozilla, NYU and MIT.</p>
-				</div>
-				</div>
-				<div class="col-md-4 hidden-xs">
-
-				</div>
-			</div>
-		</div>
-
-
-	</div>
 </div>
-</div>
+

@@ -16,7 +16,7 @@
 
 		<!-- Collect the nav links, forms, and other content for toggling -->
 		<div class="collapse navbar-collapse" id="p2pu-menu">
-			<ul class="nav navbar-nav">
+			<ul class="nav navbar-nav navbar-right">
 				<li class="{% if page.url == post.url %}active{% endif %}">
 					<a href="{{ site.baseurl }}{% post_url 2000-01-01-start-here %}">Start here</a>
 				</li>
@@ -48,9 +48,6 @@
 					<a target="_blank"
 					   href="http://discourse.p2pu.org/category/writing-for-change">Discussion</a>
 				</li>
-			</ul>
-			<ul class="nav navbar-nav navbar-right">
-				<li><a href="{{ '/signup' | prepend: site.baseurl }}">Signup</a></li>
 			</ul>
 		</div>
 		<!-- /.navbar-collapse -->
