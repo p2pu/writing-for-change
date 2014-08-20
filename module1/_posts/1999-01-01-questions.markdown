@@ -21,9 +21,11 @@ The questions below are to guide your thinking this week:
 - Creation myths explain how things began, what they are composed of and what forces shaped them.  What is your personal creation myth?
 - What am I interested in writing that could begin to move the needle on a particular issue?
 
-### Head on Over to [Discourse](http://discourse.p2pu.org/category/writing-for-change) and Find Your Crew
+### Head on Over to [Discourse](http://discourse.p2pu.org/category/writing-for-change)
 
-- In Discourse, check out the ["How Do I Find My Group"](http://discourse.p2pu.org/t/how-do-i-find-my-group/54) thread, choose a subcategory of an issue that is important to you, and introduce yourself. 
+- Check out [how to get started](http://discourse.p2pu.org/t/how-do-i-get-started-with-discourse/134)
+- Check out [how to use googledocs](http://discourse.p2pu.org/t/how-do-i-create-and-share-my-googledoc/135)
+- Introduce yourself and say Hi [http://discourse.p2pu.org/t/writing-for-change-say-hello-and-find-your-crew/156/9]
 
 <img src="{{ site.baseurl }}/img/Discourse3.jpg" alt=""></a>
 
