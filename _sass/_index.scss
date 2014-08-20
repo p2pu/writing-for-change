@@ -169,10 +169,10 @@ $screen-sm: 768px;
 		}
 
 		.header-intro {
-			border-bottom: solid 2px;
-			border-top: solid 2px;
+			//border-bottom: solid 2px;
+			//border-top: solid 2px;
 			padding: 3px 0 3px 0;
-			display: table;
+			//display: table;
 			margin: 2em 0;
 
 			@include headings {
@@ -193,7 +193,6 @@ $screen-sm: 768px;
 
 			@include headings {
 				font-family: 'Source Sans Pro', sans-serif;
-				text-align: left;
 				margin: 0;
 				position: relative;
 				line-height: 1.4em;
