@@ -25,7 +25,7 @@ The questions below are to guide your thinking this week:
 
 - Check out [how to get started](http://discourse.p2pu.org/t/how-do-i-get-started-with-discourse/134)
 - Check out [how to use googledocs](http://discourse.p2pu.org/t/how-do-i-create-and-share-my-googledoc/135)
-- Introduce yourself and say Hi [http://discourse.p2pu.org/t/writing-for-change-say-hello-and-find-your-crew/156/9]
+- Introduce yourself [and say Hi](http://discourse.p2pu.org/t/writing-for-change-say-hello-and-find-your-crew/156/9)
 
 <img src="{{ site.baseurl }}/img/Discourse3.jpg" alt=""></a>
 
