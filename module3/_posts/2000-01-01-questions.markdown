@@ -22,3 +22,6 @@ This week you'll hear from an array of people who have enacted social change in 
 We've asked them to hone in on *how* they decided what their artifact / intervention should be. How did they choose their medium or platform? 
 
 They contributed essays specifically for this course, so we are very thankful :)
+
+This week you'll be selecting your artifact, and creating a proposal for that artifact that you'll work towards during the rest of the course. 
+
