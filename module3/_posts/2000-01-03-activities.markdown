@@ -16,5 +16,5 @@ Don't forget to set your Google doc sharing to "everyone with the link" and manu
 
 Please post your proposal to [Discourse](http://discourse.p2pu.org/t/activity-3-what-will-your-artifact-be/253).
 
-![Activity 3: What Will Your Artifact Be?](/writing-for-change / img / activity3.jpg "Activity 3")
+![Activity 3: What Will Your Artifact Be?](/ img / activity3.jpg "Activity 3")
 
