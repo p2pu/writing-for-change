@@ -3,4 +3,13 @@ title: Reading
 layout: course_page
 ---
 # Reading
-We'll post future modules further in the course
+
+<ol>
+{% for essay in site.data.essays.module-3 %}
+	<li>
+		<a href="{{ site.baseurl }}/essays/{{ essay.url }}" target="_blank"> 
+			{{essay.title}} 
+		</a>
+	</li>
+{% endfor %}
+</ol>
