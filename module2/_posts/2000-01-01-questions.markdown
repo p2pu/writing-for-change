@@ -1,9 +1,10 @@
 ---
 title: Questions
 layout: course_page
+published: true
 ---
 
-WEEK 2:  What is Your Issue?
+## What is the Issue you Care About?
  
 Your work last week brought you closer to clarifying a social issue that you are uniquely positioned to impact because of who you are and the things that drive you.
  
@@ -16,4 +17,3 @@ Key Questions:
 - Who has already started to answer, engage with, and solve this question?  In your own community?  In other areas?
 - What are possible sources—in-person experts to talk with, and print and other media resources—to help your exploration of what has worked and what hasn’t?
 - What are the key data points that drive you (and will drive others) to do the thing you want to do?
-
