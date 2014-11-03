@@ -10,4 +10,8 @@ published: true
 3. Drawing from what you've learned about the "Critical Response Process" draft five-to-six "Neutral" questions about the Feedback section to help improve it.
 4. Post your feedback to [Discourse](http://discourse.p2pu.org/t/activity-4-how-to-deliver-feedback/289) by Friday, November 8.
 
+![Activity 4](http://github.com/activity_4.png)
+
+
+
 
