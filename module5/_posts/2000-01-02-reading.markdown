@@ -1,6 +1,21 @@
 ---
 title: Reading
 layout: course_page
+published: true
 ---
-# Reading
-We'll post future modules further in the course
+
+# How to Recruit Your Crew
+
+## Examples of Communities Creating Artifacts Together
+
+1. [Village Talk, Creating with Meaning](https://unhangout.media.mit.edu/event/villagetalk)
+2. [Act Up Oral History Project](http://www.actuporalhistory.org/index1.html)
+3. [Chef Hangout](http://www.chefhangout.com/how-it-works)
+
+
+## Focus on Your First 10
+>People jumping straight into coworking calculating square footage & sizing up furniture, or obsessing over branding and their website, are skipping over the important and crucial step to developing a healthy community: *finding your first 10 coworkers*. Everything else can come after that.
+ 
+>Where you find them will vary. What they’ll look like will vary. But these first 10 people are the human seeds of your coworking space to be. They will be the #1 reason that other people want to come work with you at your coworking space.
+ 
+Alex Hillman, [How To Fund Your Coworking Space](http://dangerouslyawesome.com/2011/09/how-to-fund-your-coworking-space/)
