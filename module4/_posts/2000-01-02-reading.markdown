@@ -6,9 +6,9 @@ published: true
 
 # Readings in Stellar Feedback
 
-1. Liz Lerman, [The Critical Response Process](http://www.lizlerman.com/crpLL.html) and [Interview](http://www.morehshin.com/spring13x3danimation/wp-content/uploads/2012/12/LizLerman.pdf)
+1. Liz Lerman, [The Critical Response Process](https://lizlerman.com/critical-response-process/) and [Interview](https://github.com/p2pu/writing-for-change-2022/blob/gh-pages/essays/LizLermanInterview.pdf)
 2. Donald Schön ["The Reflective Practitioner"](http://infed.org/mobi/donald-schon-learning-reflection-change/)
-3. [Whole Systems Thinking](http://www.csh.umn.edu/wsh/prod/groups/ahc/@pub/@ahc/@csh/@wsh/documents/content/ahc_content_199136.pdf)
+3. [Whole Systems Healing](https://github.com/p2pu/writing-for-change-2022/blob/gh-pages/essays/whole%20systems%20thinking.pdf)
 
 
 
