@@ -10,5 +10,6 @@ Herb Kohl demonstrates how the world is the best classroom and how not-learning 
  
 Peter Elbow explains the use of writing as a tool for thinking and growing ideas.
 
-- [Peter Elbow's "Writing Without Teachers"](http://nzr.mvnu.edu/faculty/trearick/english/rearick/exposwrt/Elbow%20Learning%20Without%20Writing%20Teachers.pdf)
-- [Herb Kohl's "I Won't Learn From You" & "Open Classroom"](https://drive.google.com/folderview?id=0B5tWnajPyvXDMmo5V1ZtTnJRRVU&usp=sharing)
+- [Peter Elbow: "Writing Without Teachers"](https://github.com/p2pu/writing-for-change-2022/tree/gh-pages/essays)
+- [Herb Kohl: "I Won't Learn From You"](https://github.com/p2pu/writing-for-change-2022/blob/gh-pages/essays/Kohl_I_Won't_Learn_from_You.pdf)
+- [Herb Kohl: "Open Classroom"](https://github.com/p2pu/writing-for-change-2022/blob/gh-pages/essays/Kohl%20Open%20Classroom.pdf)
