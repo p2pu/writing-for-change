@@ -10,14 +10,13 @@ Sherry Turkle interviewed several accomplished artists and engineers to find out
 
 >"For Sherry Turkle, 'We think with the objects we love; we love the objects we think with.' In _Evocative Objects_, Turkle collects writings by scientists, humanists, artists, and designers that trace the power of everyday things. These essays reveal objects as emotional and intellectual companions that anchor memory, sustain relationships, and provoke new ideas. These days, scholars show new interest in the importance of the concrete."
 
-http://mitpress.mit.edu/books/evocative-objects
+[http://mitpress.mit.edu/books/evocative-objects](https://mitpress.mit.edu/9780262516778/evocative-objects/)
 
-This module will ask you to think about which objects ground you, helped form your own identity. What does that object say about your family? Your ethnic background? Your gender? Your social class? Keep these questions in mind as you read *either* Turkle or Auster.
+This module will ask you to think about which objects ground you and have helped you form your own identity. What does that object say about your lived experience? Your gender? Your social class? Keep these questions in mind as you read *either* Turkle or Auster.
 
 ### Sherry Turkle 
-- [Cello](http://courses.ischool.berkeley.edu/i290-2/s08/readings/Turkle_Evocative_Objects.pdf)
-- [Knots](http://llk.media.mit.edu/courses/readings/Turkle-EO-knots.pdf)
-- [Lego](http://llk.media.mit.edu/courses/readings/Turkle-LEGO.pdf)
+- [Cello](https://mitpress.mit.edu/9780262516778/evocative-objects/): pp. 13-21
+- [Knots](http://williamwolff.org/wp-content/uploads/2016/01/turkle-objects-2011.pdf): pp. 23-29
 
 
 ### Paul Auster
