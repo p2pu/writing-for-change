@@ -1,6 +1,0 @@
----
-title: Reading
-layout: course_page
----
-# Reading
-We'll post future modules further in the course
