@@ -4,12 +4,10 @@ layout: course_page
 ---
 # Reading
 
-<ol>
-{% for essay in site.data.essays.module-3 %}
-	<li>
-		<a href="{{ site.baseurl }}/essays/{{ essay.url }}" target="_blank"> 
-			{{essay.title}} 
-		</a>
-	</li>
-{% endfor %}
-</ol>
+1. [Cultural Roots and Knowledge](https://github.com/p2pu/writing-for-change-2022/blob/gh-pages/essays/Marc_Mason_Cultural_Roots_and_Knowledge.pdf)
+1. [Nick Sousanis Story of How: Comics](https://github.com/p2pu/writing-for-change-2022/blob/gh-pages/essays/Nick_Sousanis_Story_of_How.pdf)
+1. [Story of Shan Mukhtar](https://github.com/p2pu/writing-for-change-2022/blob/gh-pages/essays/Shan_Mukhtar_story.pdf)
+1. [Story of Kiko_Suarez](https://github.com/p2pu/writing-for-change-2022/blob/gh-pages/essays/Story_Kiko_Suarez.pdf)
+1. [Celia Orphan: Story of How](https://github.com/p2pu/writing-for-change-2022/blob/gh-pages/essays/Story_of_How_Celia_Orphan.pdf)
+1. [Sarah Mirk: Bitch Media](https://github.com/p2pu/writing-for-change-2022/blob/gh-pages/essays/Story_Sarah_Mirk_Bitch_Media.pdf)
+1. [Tracy Money: Transforming Public Education](https://github.com/p2pu/writing-for-change-2022/blob/gh-pages/essays/Tracy_Money_Transforming_Public_Education.pdf)
