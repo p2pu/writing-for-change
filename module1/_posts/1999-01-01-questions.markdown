@@ -8,7 +8,7 @@ published: true
 
 ## Who Are You?
 
-In Weeks 1 – 3 you will identify and/or clarify a social issue that matters to you--something that motivates you to enact change. In Weeks 4 - 7, you will plan and write for change collectively.   
+In Weeks 1 – 3, you will identify and/or clarify a social issue that matters to you--something that motivates you to enact change. In Weeks 4 - 7, you will plan and write for change collectively.   
  
 This week you’ll look around your world and identify social issues you encounter in your day-to-day life. In addition, you’ll do some freewriting about your own background to try and unpack which issues are most important to you because of who you are. 
  
