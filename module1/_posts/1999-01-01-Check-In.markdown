@@ -1,5 +1,5 @@
 ---
-title: Questions
+title: Check-In
 layout: course_page
 image: "issue-photo.jpg"
 "image-attribution": Tomasz Stasiuk
