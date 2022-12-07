@@ -2,21 +2,34 @@
 title: Reading
 layout: course_page
 ---
-## Readings
+## Readings (30 minutes)
 
-This week's readings are about the objects that are always with you--that made you who you are.
+This week, you’ll look around your world and identify social issues you encounter in your day-to-day life. In addition, you’ll do some freewriting about your own background to try and unpack which issues are most important to you because of who you are.
 
-Sherry Turkle interviewed several accomplished artists and engineers to find out about their "Evocative Object." 
+### #1: Who are you? (15 minutes)
+In her book Evocative Objects, Sherry Turkle interviewed several accomplished artists and engineers to find out about an object they loved and how it defined them. Take **ten minutes** to read **one** of the following essays by Sherry Turkle or Paul Auster. As you read, keep the following questions in mind:
 
->"For Sherry Turkle, 'We think with the objects we love; we love the objects we think with.' In _Evocative Objects_, Turkle collects writings by scientists, humanists, artists, and designers that trace the power of everyday things. These essays reveal objects as emotional and intellectual companions that anchor memory, sustain relationships, and provoke new ideas. These days, scholars show new interest in the importance of the concrete."
+#### Key Questions: 
+Which objects ground you and have helped you form your own identity?
+What does that object say about your lived experience and your positionality in society? 
 
-[http://mitpress.mit.edu/books/evocative-objects](https://mitpress.mit.edu/9780262516778/evocative-objects/)
+- Sherry Turkle: [Cello](https://github.com/p2pu/writing-for-change-2022/blob/gh-pages/essays/turkle-objects-2011-Knots-WilliamWolff.pdf): pp. 13-21
+- Sherry Turkle: [Knots](https://github.com/p2pu/writing-for-change-2022/blob/gh-pages/essays/turkle-objects-2011-Knots-WilliamWolff.pdf): pp. 23-29
+- Paul Auster: [Where's Your Pencil](https://github.com/p2pu/writing-for-change-2022/blob/gh-pages/essays/Whats%20Your%20Pencil.pdf)
 
-This module will ask you to think about which objects ground you and have helped you form your own identity. What does that object say about your lived experience and your positionality in society? Keep these questions in mind as you read *either* Turkle or Auster.
+After you read, take **five minutes** to free-write a response to one or more of the key questions. This response is just a way to collect your thoughts for discussion later - you never have to share the text of your free-writing with the group! Feel free to handwrite or to open a separate Google Doc for this exercise.
 
-Sherry Turkle: 
-- [Cello](https://github.com/p2pu/writing-for-change-2022/blob/gh-pages/essays/turkle-objects-2011-Knots-WilliamWolff.pdf): pp. 13-21
-- [Knots](https://github.com/p2pu/writing-for-change-2022/blob/gh-pages/essays/turkle-objects-2011-Knots-WilliamWolff.pdf): pp. 23-29
+### #2: What is the social issue that you care about? (15 minutes)
+Next, let’s identify a social issue that you care about. 
 
-Paul Auster:
-- [Where's Your Pencil](https://github.com/p2pu/writing-for-change-2022/blob/gh-pages/essays/Whats%20Your%20Pencil.pdf)
+Take **ten minutes** to read **one** of the following essays to help you explore the social issue you will focus on during this course. Peter Elbow explains the use of writing as a tool for thinking and growing ideas, and Herb Kohl demonstrates how the world is the best classroom and how not-learning can spark social change. As you read, keep the following questions in mind:
+
+#### Key Questions:
+- What issues in the world around me am I connected to?
+- What are the problems that I engage with in my life that I want to tackle?
+
+- [Peter Elbow: "Writing Without Teachers"](https://github.com/p2pu/writing-for-change-2022/blob/gh-pages/essays/elbow-p-1973-writing-without-teachers-growing.pdf)
+- [Herb Kohl: "I Won't Learn From You"](https://github.com/p2pu/writing-for-change-2022/blob/gh-pages/essays/Kohl_I_Won't_Learn_from_You.pdf)
+- [Herb Kohl: "Open Classroom"](https://github.com/p2pu/writing-for-change-2022/blob/gh-pages/essays/Kohl%20Open%20Classroom.pdf)
+
+After you read one of the articles, take five minutes to free-write a response to one or more of the key questions above to privately collect your thoughts for our discussion.
