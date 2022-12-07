@@ -11,6 +11,7 @@ In her book Evocative Objects, Sherry Turkle interviewed several accomplished ar
 
 #### Key Questions: 
 Which objects ground you and have helped you form your own identity?
+
 What does that object say about your lived experience and your positionality in society? 
 
 - Sherry Turkle: [Cello](https://github.com/p2pu/writing-for-change-2022/blob/gh-pages/essays/turkle-objects-2011-Knots-WilliamWolff.pdf): pp. 13-21
@@ -26,6 +27,7 @@ Take **ten minutes** to read **one** of the following essays to help you explore
 
 #### Key Questions:
 What issues in the world around me am I connected to?
+
 What are the problems that I engage with in my life that I want to tackle?
 
 - [Peter Elbow: "Writing Without Teachers"](https://github.com/p2pu/writing-for-change-2022/blob/gh-pages/essays/elbow-p-1973-writing-without-teachers-growing.pdf)
