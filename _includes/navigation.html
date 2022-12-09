@@ -21,7 +21,7 @@
 					<a href="{{ site.baseurl }}{% post_url 2000-01-01-start-here %}">Start here</a>
 				</li>
 				<li {% if page.url contains module %}class="active"{% endif %}>
-					<a href="{{ site.baseurl }}{% post_url 1999-01-01-questions %}">Content</a>
+					<a href="{{ site.baseurl }}{% post_url 1999-01-01-Check-in %}">Content</a>
 				</li>
 				{% for module in site.data.course.modules %}
 					<li class="{% if page.url contains module %}active{% endif %} dropdown hidden-print hidden-md hidden-lg">
