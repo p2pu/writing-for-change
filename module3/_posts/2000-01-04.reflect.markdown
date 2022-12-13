@@ -1,6 +1,7 @@
 ---
 title: Reflection
 layout: course_page
+published: true
 ---
 ## Reflection (5 minutes)
 
