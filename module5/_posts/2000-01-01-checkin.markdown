@@ -1,0 +1,9 @@
+---
+title: Check-In
+layout: course_page
+published: true
+---
+
+# Check-In (5 minutes)
+
+What most surprised you about the process of creating your second draft? What did you find challenging? Save some of your thoughts in the facilitator guide.
