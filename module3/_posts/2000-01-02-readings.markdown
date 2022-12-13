@@ -1,8 +1,10 @@
 ---
-title: Reading
+title: Readings
 layout: course_page
 ---
-# Reading
+# Readings (20 minutes)
+
+After last week’s session, you read these essays:
 
 1. [Cultural Roots and Knowledge](https://github.com/p2pu/writing-for-change-2022/blob/gh-pages/essays/Marc_Mason_Cultural_Roots_and_Knowledge.pdf)
 1. [Nick Sousanis Story of How: Comics](https://github.com/p2pu/writing-for-change-2022/blob/gh-pages/essays/Nick_Sousanis_Story_of_How.pdf)
@@ -11,3 +13,7 @@ layout: course_page
 1. [Celia Orphan: Story of How](https://github.com/p2pu/writing-for-change-2022/blob/gh-pages/essays/Story_of_How_Celia_Orphan.pdf)
 1. [Sarah Mirk: Bitch Media](https://github.com/p2pu/writing-for-change-2022/blob/gh-pages/essays/Story_Sarah_Mirk_Bitch_Media.pdf)
 1. [Tracy Money: Transforming Public Education](https://github.com/p2pu/writing-for-change-2022/blob/gh-pages/essays/Tracy_Money_Transforming_Public_Education.pdf)
+
+Take 20 minutes to discuss how any of these essays connect to the social change that you want to enact. Which of last week’s assigned essays most resonated with you, and why? What were some of the most important observations and pieces of advice from these essays? How do they relate to your interests? 
+
+Save some notes from your discussion in the facilitator guide.
