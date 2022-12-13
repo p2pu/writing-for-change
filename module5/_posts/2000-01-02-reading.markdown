@@ -4,7 +4,7 @@ layout: course_page
 published: true
 ---
 
-# Readings
+# Readings (35 minutes)
 
 Use the facilitator guide to share links to your second draft with the group.
 
