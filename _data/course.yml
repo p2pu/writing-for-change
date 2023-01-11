@@ -1,2 +1,11 @@
 title: Writing for change - 2022 Edition
-modules: ['Module 1', 'Module 2', 'Module 3', 'Module 4']
+description: Get help writing grant proposals, applications and op-eds
+modules:
+  - title: 'Module 1'
+    slug: module1
+  - title: 'Module 2'
+    slug: module2
+  - title: 'Module 3'
+    slug: module3
+  - title: 'Module 4'
+    slug: module4

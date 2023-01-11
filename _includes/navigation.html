@@ -1,57 +1,26 @@
 <!-- Navigation -->
-<nav class="navbar navbar-default" role="navigation">
-	<div class="container">
-		<!-- Brand and toggle get grouped for better mobile display -->
-		<div class="navbar-header">
-			<a href="{{ site.baseurl }}/" class="navbar-brand">
-				<img src="{{ site.baseurl }}/img/logo.png" alt="P2PU Logo" />
-			</a>
-			<a class="navbar-toggle" data-toggle="collapse" data-target="#p2pu-menu">
-				<i class="fa fa-bars"></i>
-			</a>
-			<a class="p2pu-tab" href="#">
-				<i class="fa fa-chevron-down p2pu-tab-icon"></i>
-			</a>
-		</div>
+<nav class="navbar navbar-expand-lg py-0 .navbar-dark bg-dark text-light">
+  <a class="navbar-brand" href="{{site.baseurl}}/"><i class="fa fa-home"></i></a>
 
-		<!-- Collect the nav links, forms, and other content for toggling -->
-		<div class="collapse navbar-collapse" id="p2pu-menu">
-			<ul class="nav navbar-nav navbar-right">
-				<li class="{% if page.url == post.url %}active{% endif %}">
-					<a href="{{ site.baseurl }}/start/start-here/">Start here</a>
-				</li>
-				<li {% if page.url contains module %}class="active"{% endif %}>
-					<a href="{{ site.baseurl }}/module1/Check-In/">Content</a>
-				</li>
-				{% for module in site.data.course.modules %}
-					<li class="{% if page.url contains module %}active{% endif %} dropdown hidden-print hidden-md hidden-lg">
-					{% assign mod_name = module|split:":" %}
-					{% assign mod_name = mod_name[0]|downcase|replace:' ','' %}
-						<a href="{{ site.categories[mod_name][2].url }}">
-							{{ module }}
-						</a>
-						<span class="fa fa-caret-down dropdown-toggle visible-xs-block visible-sm-block"
-						      data-toggle="dropdown"></span>
-						<ul class="dropdown-menu">
-							{% for post in site.categories[mod_name] reversed %}
-								<li>
-									<a {% if post.url == page.url %}class="active"{% endif %}
-									   href="{{ site.baseurl }}{{ post.url }}">
-										{{ post.title }}
-									</a>
-								</li>
-							{% endfor %}
-						</ul>
-					</li>
-				{% endfor %}
-				<li>
-					<a target="_blank"
-					   href="http://discourse.p2pu.org/category/writing-for-change">Discussion</a>
-				</li>
-			</ul>
-		</div>
-		<!-- /.navbar-collapse -->
-	</div>
-	<!-- /.container-fluid -->
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <i class="fa fa-bars"></i>
+  </button>
+
+  <div class="navbar-collapse collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav">
+      {% for module in site.data.course.modules %}
+       {% assign first_post = site.categories[module.slug]|reverse|first %}
+       <li class="nav-item py-2{% if page.categories[1] == module.slug %} active{% endif %}">
+         <a class="nav-link" href="{{ site.baseurl }}{{ first_post.url }}">
+           {{ module.title }}
+         </a>
+       </li>
+      {% endfor %}
+      {% comment %}
+      <li class="nav-item py-2 {% if page.name == 'about.md' %} active{% endif %}">
+        <a class="nav-link" href="{{site.baseurl}}/about">About</a>
+      </li>
+      {% endcomment %}
+    </ul>
+  </div>
 </nav>
-<!-- End Navigation -->

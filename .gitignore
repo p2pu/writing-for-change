@@ -1,7 +1,4 @@
-_site
-*~
+_site/*
 .idea/
-DS_Store
-.sass-cache/
-.rvmrc
-.idea
+.sass-cache
+.bundler/
