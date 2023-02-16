@@ -3,22 +3,20 @@ layout: index
 published: true
 ---
 
-Together with College Unbound and P2PU
+<h1>Welcome to Writing for Change</h1>
+<p>Thanks for joining this learning circle! Over the course of the next five weeks, the readings and activities in this course will help you to:
+- Identify your motivations and desired impact in facilitating change
+- Collectively develop interventions that positively impact your communities
+- Explore methods that invite iterative collaboration and generative criticism</p>
 
-## The Rundown
+<p>In the first part of this course, you’ll identify a social issue that matters to you--something that motivates you to enact change. This will prepare you for the next part of the course where you will plan and write for change collectively.
+What is freewriting? Freewriting is the process of jotting your thoughts down as quickly as you can without judgment. Every writer struggles with the fear that what they write isn’t “good enough,” and freewriting is a tool that helps you break past that fear and to get something - anything - down on the page.
+You and your group can keep track of the writing that you’re doing in your learning circle’s facilitator guide. This will be a living document that all of you can edit to save your assignments, add questions, and leave feedback for future learning circles.</p>
 
-- If you need help writing grant proposals, applications and op-eds, in this 8-week course you will craft a polished, complete piece.
-- Each module will have a reading portion and a writing portion. We’ll start with your personal biography and establish why you care about this issue.
-- Featured writers include Sarah Mirk of Bitch Media, Alexandrina Agloro of the University of Southern California and more.
+<p>We hope the members of your cohort can support one another long after the conclusion of this learning circle. To the future!</p>
 
 ## Who We Are:
-
-![]({{ site.baseurl }}/img/cu-logo.png)
-
-College Unbound 's goal is to support adult learners as college students in a project-based program that is relevant to their lives. Marginalized and underserved student populations earn an accredited degree via civic engagement projects and real-life experience. Students--among them previously incarcerated, single-moms and other marginalized peoples--earn an accredited degree via civic engagement projects and real-life experience.
 
 ![]({{ site.baseurl }}/img/logo.png)
 
 P2PU is a university for the web, built by an open community. Instead of lonely, anonymous online courses, our communities sustain interest and engagement because folks build them together. We are open and welcoming in everything we do, and help folks generally feel comfy on the internet. Our core values are openness, community and peer learning, and we've built learning communities with the likes of Creative Commons, Mozilla, NYU and MIT.
-
-We're a friendly crew.
