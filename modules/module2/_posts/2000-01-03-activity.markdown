@@ -2,7 +2,7 @@
 title: Activity
 layout: course_page
 ---
-## Activity
+## Activity (35 mins)
 
 Take **10 minutes** to free-write a response to the following writing prompt. You don’t have to share the text of your free-write with the group - you’re just collecting your thoughts for the group discussion later. Feel free to handwrite your response or to open another Google Doc!
 > The following activity was adapted from Syd Thorne’s "Through Critique and Beyond: Speculative Fiction as a Tool of Critical Pedagogy" (2021). Master's Projects and Capstones. 1288. [https://repository.usfca.edu/capstone/1288](https://repository.usfca.edu/capstone/1288)
