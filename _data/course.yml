@@ -9,3 +9,5 @@ modules:
     slug: module3
   - title: 'Module 4'
     slug: module4
+  - title: 'Module 5'
+    slug: module5
