@@ -2,7 +2,9 @@
 title: Activities
 layout: course_page
 ---
-# Activity: What Will Your Artifact or Intervention Be?
+# Activity (25 mins)
+
+## What Will Your Artifact or Intervention Be?
 
 Now that you’ve read several stories of “how”, it’s time to spell out what your artifact will be!  
 
