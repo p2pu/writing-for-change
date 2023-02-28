@@ -4,7 +4,7 @@ layout: course_page
 published: true
 ---
 
-# Activities (40 minutes)
+# Activities (35 mins)
 
 Once everyone has added their responses to the assignment to the facilitator guide, take turns asking for feedback following the steps of the Critical Response Process. Be generous during your critiques - these are still the early stages of the process, and we’re by no means looking for perfection!
 
