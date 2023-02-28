@@ -4,7 +4,9 @@ layout: course_page
 published: true
 ---
 
-# Readings in Stellar Feedback
+# Reading (15 mins)
+
+## Readings in Stellar Feedback
 
 1. Liz Lerman: [The Critical Response Process](https://lizlerman.com/critical-response-process/) and [Interview](https://github.com/p2pu/writing-for-change-2022/blob/gh-pages/essays/LizLermanInterview.pdf)
 1. [Whole Systems Healing](https://github.com/p2pu/writing-for-change-2022/blob/gh-pages/essays/whole%20systems%20thinking.pdf)
