@@ -15,6 +15,10 @@ Over the course of the next five weeks, the readings and activities in this cour
 
 In the first part of this course, learners will identify a social issue that matters to them--something that motivates them to enact change. This will prepare learners for the next part of the course where they will plan and write for change collectively.
 
+## How do I use this course?
+
+This course is free to access and use however you see fit, and it is designed to be run as a learning circle: a facilitated study group for people who want to meet regularly and learn about a topic with others. There are no teachers or students in a learning circle—-it is a group where everyone learns the material together. Facilitators should review each week’s content before each meeting, but they need not be content experts in order to facilitate. The learning circle’s facilitator decides the meeting schedule, keeps the group on task during meetings, and supports individual learners’ participation and goals. [Learn more about learning circle facilitation here.](https://docs.p2pu.org/facilitation/facilitation-basics)
+
 ## How do I create a learning circle?
 
 You can create a learning circle on the [P2PU website](https://www.p2pu.org/en/), and you can make a copy of a P2PU facilitator guide to help structure your meetings:
@@ -24,10 +28,6 @@ You can create a learning circle on the [P2PU website](https://www.p2pu.org/en/)
 This facilitator guide is designed to be a **living document** that learners can use to keep track of their writing, add questions, and leave feedback for future learning circles.
 
 You do not have to run the course exactly as outlined. Our content is a guideline for your own venture into the forays of facilitating a writing group focused on social change. This material is more effective when it can connect personally to learners, so we encourage you to customize the content based on your local area’s history, your personal intentions for running this program, and the learning goals of your attendees.
-
-## How do I use this course?
-
-This course is free to access and use however you see fit. However, the learning materials are structured to be run as a learning circle: a facilitated study group for people who want to meet regularly and learn about a topic with others. Facilitators should review each week’s content before each meeting, but they need not be content experts in order to facilitate: the videos, articles, and discussion prompts in this course are featured to encourage dialogue and open up opportunities to have more in-depth conversations about race and racism. For quick and easy access, all the links from this course are featured on this link tree, listed in chronological order of need for the course.
 
 We hope the members of your cohort can support one another long after the conclusion of this learning circle. Here's to the future!
 
