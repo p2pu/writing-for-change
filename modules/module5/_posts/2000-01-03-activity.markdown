@@ -4,7 +4,7 @@ layout: course_page
 published: true
 ---
 
-# Activity (20 minutes)
+# Activity (25 mins)
 
 Take five minutes to free-write your wildest dreams for your artifact. What speculative future do you envision as a result of your work?
 
